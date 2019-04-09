@@ -1,0 +1,24 @@
+nav
+  nav class=navbar is-fixed-top role=navigation aria-label=main navigation
+    div class=navbar-brand
+      a class=navbar-item href=https://1dkhaber.com
+        img src=static/brand-600.png height=28
+
+      a role=button class=navbar-burger burger aria-label=menu aria-expanded=false data-target=navbarMenu
+        span aria-hidden=true
+        span aria-hidden=true
+        span aria-hidden=true
+
+
+    div id=navbarMenu class=navbar-menu
+      div class=navbar-start
+          div class=navbar-item
+            a class=navbar-item
+
+        div class=navbar-end
+          div class=navbar-item
+            a class=navbar-item id=aboutLink
+            ^ Hakkında
+
+            a class=navbar-item id=contactLink
+            ^ İletişim
